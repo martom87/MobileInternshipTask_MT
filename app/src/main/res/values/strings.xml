@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">MobileInternshipTask</string>
+
+    <string name="errorMessage"> User does not exist  </string>
+
+    <string name="internetConnectionFailure"> Internet Connection Error  </string>
+    <string name="extra_repo">chosen reopository</string>
+
+</resources>

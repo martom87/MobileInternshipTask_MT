@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/typeUserName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_texts"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="193dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:hint="Type User Name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonDownloadRepository"
+        android:background="@drawable/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/typeUserName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Search" />
+
+    <ProgressBar
+        android:id="@+id/query_progress_bar"
+        android:layout_below="@id/buttonDownloadRepository"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
